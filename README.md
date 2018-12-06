@@ -1,6 +1,6 @@
 # Crosswalk between zip codes, counties, and metropolitan areas (CBSAs)
 
-This file produces a crosswalk between zip codes, counties (both FIPS codes and county names), and metropolitan areas (both CBSA codes and names). This provides a useful starting point for exploring data that need to be cross-references across multiple geographies. 
+This file produces a crosswalk between zip codes, counties (both FIPS codes and county names), and metropolitan areas (both CBSA codes and names). This provides a useful starting point for exploring data that need to be cross-references across multiple geographies.
 
 Note that this file provides an alternative to the NBER cross-walk files (http://www.nber.org/data/cbsa-msa-fips-ssa-county-crosswalk.html). Relative to those cross-walk files, I add zip code information, and use more accurate CBSA information (i.e. names) that are more commonly found in other data sources. For example, the NBER crosswalk refers to the New York metro area as "New York-Wayne-White Plains, NY-NJ" with CBSA code 35644, whereas almost all other sources (including the OMB!) use the name "New York-Newark-Jersey City, NY-NJ-PA" with CBSA code 35620.
 
@@ -31,7 +31,7 @@ The resulting .csv file is approximately 2.3MB in size.
 
 # Prerequisites
 
-The script requires `Python` along with the `numpy`, `pandas`, `requests` and `os` libraries.
+The script requires `Python` along with the `numpy`, `pandas`, `requests` and `xlrd` libraries.
 
 # Running the code
 
